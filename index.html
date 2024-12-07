@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body background="./WhatsApp Image 2024-11-20 à 10.21.07_f6928714.jpg">
+    <div class="martial">
+        <strong>calculatrice (porpor)</strong><br><br><br>
+        <input type="text" id="display" disabled />
+        <div class="buttons">
+            <button onclick="clearDisplay()"><B>C</B></button>
+            <button onclick="appendToDisplay('9')"><B>9</B></button>
+            <button onclick="appendToDisplay('8')"><B>8</B></button>
+            <button onclick="appendToDisplay('*')"><B>*</B></button>
+            <button onclick="appendToDisplay('7')"><B>7</B></button>
+            <button onclick="appendToDisplay('6')"><B>6</B></button>
+            <button onclick="appendToDisplay('/')"><B>/</B></button>
+            <button onclick="appendToDisplay('5')"><B>5</B></button>
+            <button onclick="appendToDisplay('4')"><B>4</B></button>
+            <button onclick="appendToDisplay('+')"><B>+</B></button>
+            <button onclick="appendToDisplay('3')"><B>3</B></button>
+            <button onclick="appendToDisplay('2')"><B>2</B></button>
+            <button onclick="appendToDisplay('-')"><B>-</B></button>
+            <button onclick="appendToDisplay('1')"><B>1</B></button>
+            <button onclick="appendToDisplay('0')"><B>0</B></button>
+            <button><a href="index1.html">mode scientific</a></button>
+            <button onclick="appendToDisplay('.')"><B>.</B></button>
+            <button onclick="calculateResult()"><B>=</B></button>
+        </div>
+        <p>"Martial La Flamme"</p>
+    </div>
+    <script src="ts-built/script.js"></script>
+</body>
+</html>

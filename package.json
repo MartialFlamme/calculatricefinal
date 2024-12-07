@@ -1,0 +1,7 @@
+{
+    "name" : "CALCULATRICE SCIENTIFIQUE",
+    "version" : "1.0",
+    "scripts": {
+        "start" : "live-server",
+    }
+}
